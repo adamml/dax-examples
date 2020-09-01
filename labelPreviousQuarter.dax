@@ -1,4 +1,4 @@
-PreviousQuarterLabel =
+labelPreviousQuarter =
    VAR previousQuarterInt = SWITCH(QUOTIENT(MONTH(TODAY())-1, 3)+1,1,4,2,1,3,2,4,3)
    VAR previousYearInt = SWITCH(previousQuarterInt,0,YEAR(TODAY())-1,YEAR(TODAY()))
    RETURN CONCATENATE("Quarter ",
