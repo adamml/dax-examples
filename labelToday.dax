@@ -1,4 +1,4 @@
-TodayLabel = 
+labelToday = 
     CONCATENATE(Day(TODAY()),
         CONCATENATE(" ",
             CONCATENATE(SWITCH(MONTH(TODAY()),
