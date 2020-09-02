@@ -1,4 +1,4 @@
-TodayLabel = 
+labelToday = 
     CONCATENATE(Day(TODAY()),
         CONCATENATE(SWITCH(DAY(TODAY()),
             1,"st",
